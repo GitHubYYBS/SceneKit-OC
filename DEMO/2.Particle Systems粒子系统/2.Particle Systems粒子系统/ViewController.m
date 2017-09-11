@@ -158,6 +158,12 @@
 }
 
 
+
+
+//- (void)clickNodeWith:()
+
+
+
 #pragma mark - SCNSceneRendererDelegate
 
 /// 维度渲染一次就调用一次
