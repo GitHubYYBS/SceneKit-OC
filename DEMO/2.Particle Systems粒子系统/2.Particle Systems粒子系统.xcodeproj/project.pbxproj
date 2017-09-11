@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163CEB2D1F667D3B00FC505B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CEB2C1F667D3B00FC505B /* main.m */; };
+		163CEB301F667D3B00FC505B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CEB2F1F667D3B00FC505B /* AppDelegate.m */; };
+		163CEB331F667D3B00FC505B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CEB321F667D3B00FC505B /* ViewController.m */; };
+		163CEB361F667D3B00FC505B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB341F667D3B00FC505B /* Main.storyboard */; };
+		163CEB381F667D3B00FC505B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB371F667D3B00FC505B /* Assets.xcassets */; };
+		163CEB3B1F667D3B00FC505B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB391F667D3B00FC505B /* LaunchScreen.storyboard */; };
+		163CEB5F1F667DDC00FC505B /* CircleParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB5E1F667DDC00FC505B /* CircleParticle.png */; };
+		163CEB621F667DEC00FC505B /* Rain.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB601F667DEC00FC505B /* Rain.scnp */; };
+		163CEB631F667DEC00FC505B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB611F667DEC00FC505B /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		163CEB421F667D3B00FC505B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163CEB201F667D3B00FC505B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163CEB271F667D3B00FC505B;
+			remoteInfo = "2.Particle Systems粒子系统";
+		};
+		163CEB4D1F667D3B00FC505B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163CEB201F667D3B00FC505B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163CEB271F667D3B00FC505B;
+			remoteInfo = "2.Particle Systems粒子系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163CEB281F667D3B00FC505B /* 2.Particle Systems粒子系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2.Particle Systems粒子系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163CEB2C1F667D3B00FC505B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163CEB2E1F667D3B00FC505B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		163CEB2F1F667D3B00FC505B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		163CEB311F667D3B00FC505B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		163CEB321F667D3B00FC505B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		163CEB351F667D3B00FC505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		163CEB371F667D3B00FC505B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163CEB3A1F667D3B00FC505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163CEB3C1F667D3B00FC505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CEB411F667D3B00FC505B /* 2.Particle Systems粒子系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2.Particle Systems粒子系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163CEB4C1F667D3B00FC505B /* 2.Particle Systems粒子系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2.Particle Systems粒子系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163CEB5E1F667DDC00FC505B /* CircleParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleParticle.png; sourceTree = "<group>"; };
+		163CEB601F667DEC00FC505B /* Rain.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Rain.scnp; sourceTree = "<group>"; };
+		163CEB611F667DEC00FC505B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163CEB251F667D3B00FC505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CEB3E1F667D3B00FC505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CEB491F667D3B00FC505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163CEB1F1F667D3B00FC505B = {
+			isa = PBXGroup;
+			children = (
+				163CEB2A1F667D3B00FC505B /* 2.Particle Systems粒子系统 */,
+				163CEB291F667D3B00FC505B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163CEB291F667D3B00FC505B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163CEB281F667D3B00FC505B /* 2.Particle Systems粒子系统.app */,
+				163CEB411F667D3B00FC505B /* 2.Particle Systems粒子系统Tests.xctest */,
+				163CEB4C1F667D3B00FC505B /* 2.Particle Systems粒子系统UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163CEB2A1F667D3B00FC505B /* 2.Particle Systems粒子系统 */ = {
+			isa = PBXGroup;
+			children = (
+				163CEB2E1F667D3B00FC505B /* AppDelegate.h */,
+				163CEB2F1F667D3B00FC505B /* AppDelegate.m */,
+				163CEB311F667D3B00FC505B /* ViewController.h */,
+				163CEB321F667D3B00FC505B /* ViewController.m */,
+				163CEB341F667D3B00FC505B /* Main.storyboard */,
+				163CEB601F667DEC00FC505B /* Rain.scnp */,
+				163CEB611F667DEC00FC505B /* spark.png */,
+				163CEB371F667D3B00FC505B /* Assets.xcassets */,
+				163CEB5E1F667DDC00FC505B /* CircleParticle.png */,
+				163CEB391F667D3B00FC505B /* LaunchScreen.storyboard */,
+				163CEB3C1F667D3B00FC505B /* Info.plist */,
+				163CEB2B1F667D3B00FC505B /* Supporting Files */,
+			);
+			path = "2.Particle Systems粒子系统";
+			sourceTree = "<group>";
+		};
+		163CEB2B1F667D3B00FC505B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				163CEB2C1F667D3B00FC505B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163CEB271F667D3B00FC505B /* 2.Particle Systems粒子系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163CEB551F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统" */;
+			buildPhases = (
+				163CEB241F667D3B00FC505B /* Sources */,
+				163CEB251F667D3B00FC505B /* Frameworks */,
+				163CEB261F667D3B00FC505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.Particle Systems粒子系统";
+			productName = "2.Particle Systems粒子系统";
+			productReference = 163CEB281F667D3B00FC505B /* 2.Particle Systems粒子系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		163CEB401F667D3B00FC505B /* 2.Particle Systems粒子系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163CEB581F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统Tests" */;
+			buildPhases = (
+				163CEB3D1F667D3B00FC505B /* Sources */,
+				163CEB3E1F667D3B00FC505B /* Frameworks */,
+				163CEB3F1F667D3B00FC505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163CEB431F667D3B00FC505B /* PBXTargetDependency */,
+			);
+			name = "2.Particle Systems粒子系统Tests";
+			productName = "2.Particle Systems粒子系统Tests";
+			productReference = 163CEB411F667D3B00FC505B /* 2.Particle Systems粒子系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		163CEB4B1F667D3B00FC505B /* 2.Particle Systems粒子系统UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163CEB5B1F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统UITests" */;
+			buildPhases = (
+				163CEB481F667D3B00FC505B /* Sources */,
+				163CEB491F667D3B00FC505B /* Frameworks */,
+				163CEB4A1F667D3B00FC505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163CEB4E1F667D3B00FC505B /* PBXTargetDependency */,
+			);
+			name = "2.Particle Systems粒子系统UITests";
+			productName = "2.Particle Systems粒子系统UITests";
+			productReference = 163CEB4C1F667D3B00FC505B /* 2.Particle Systems粒子系统UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163CEB201F667D3B00FC505B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "严兵胜";
+				TargetAttributes = {
+					163CEB271F667D3B00FC505B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					163CEB401F667D3B00FC505B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 163CEB271F667D3B00FC505B;
+					};
+					163CEB4B1F667D3B00FC505B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 163CEB271F667D3B00FC505B;
+					};
+				};
+			};
+			buildConfigurationList = 163CEB231F667D3B00FC505B /* Build configuration list for PBXProject "2.Particle Systems粒子系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163CEB1F1F667D3B00FC505B;
+			productRefGroup = 163CEB291F667D3B00FC505B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163CEB271F667D3B00FC505B /* 2.Particle Systems粒子系统 */,
+				163CEB401F667D3B00FC505B /* 2.Particle Systems粒子系统Tests */,
+				163CEB4B1F667D3B00FC505B /* 2.Particle Systems粒子系统UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163CEB261F667D3B00FC505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163CEB621F667DEC00FC505B /* Rain.scnp in Resources */,
+				163CEB631F667DEC00FC505B /* spark.png in Resources */,
+				163CEB3B1F667D3B00FC505B /* LaunchScreen.storyboard in Resources */,
+				163CEB381F667D3B00FC505B /* Assets.xcassets in Resources */,
+				163CEB361F667D3B00FC505B /* Main.storyboard in Resources */,
+				163CEB5F1F667DDC00FC505B /* CircleParticle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CEB3F1F667D3B00FC505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CEB4A1F667D3B00FC505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163CEB241F667D3B00FC505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163CEB331F667D3B00FC505B /* ViewController.m in Sources */,
+				163CEB301F667D3B00FC505B /* AppDelegate.m in Sources */,
+				163CEB2D1F667D3B00FC505B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CEB3D1F667D3B00FC505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CEB481F667D3B00FC505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163CEB431F667D3B00FC505B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163CEB271F667D3B00FC505B /* 2.Particle Systems粒子系统 */;
+			targetProxy = 163CEB421F667D3B00FC505B /* PBXContainerItemProxy */;
+		};
+		163CEB4E1F667D3B00FC505B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163CEB271F667D3B00FC505B /* 2.Particle Systems粒子系统 */;
+			targetProxy = 163CEB4D1F667D3B00FC505B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		163CEB341F667D3B00FC505B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163CEB351F667D3B00FC505B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		163CEB391F667D3B00FC505B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163CEB3A1F667D3B00FC505B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163CEB531F667D3B00FC505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		163CEB541F667D3B00FC505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163CEB561F667D3B00FC505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "2.Particle Systems粒子系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Particle-Systems----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		163CEB571F667D3B00FC505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "2.Particle Systems粒子系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Particle-Systems----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		163CEB591F667D3B00FC505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "2.Particle Systems粒子系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Particle-Systems----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2.Particle Systems粒子系统.app/2.Particle Systems粒子系统";
+			};
+			name = Debug;
+		};
+		163CEB5A1F667D3B00FC505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "2.Particle Systems粒子系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Particle-Systems----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2.Particle Systems粒子系统.app/2.Particle Systems粒子系统";
+			};
+			name = Release;
+		};
+		163CEB5C1F667D3B00FC505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "2.Particle Systems粒子系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Particle-Systems----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2.Particle Systems粒子系统";
+			};
+			name = Debug;
+		};
+		163CEB5D1F667D3B00FC505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "2.Particle Systems粒子系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Particle-Systems----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2.Particle Systems粒子系统";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163CEB231F667D3B00FC505B /* Build configuration list for PBXProject "2.Particle Systems粒子系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CEB531F667D3B00FC505B /* Debug */,
+				163CEB541F667D3B00FC505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163CEB551F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CEB561F667D3B00FC505B /* Debug */,
+				163CEB571F667D3B00FC505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163CEB581F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CEB591F667D3B00FC505B /* Debug */,
+				163CEB5A1F667D3B00FC505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163CEB5B1F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CEB5C1F667D3B00FC505B /* Debug */,
+				163CEB5D1F667D3B00FC505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163CEB201F667D3B00FC505B /* Project object */;
+}
