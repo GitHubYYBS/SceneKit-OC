@@ -10,7 +10,7 @@
 - [Swift代码地址](https://github.com/XanderXu/3D-iOS-Games-by-Tutorials-code)
 
 ## 01 Hello SceneKit与渲染循环
-![image](https://github.com/GitHubYYBS/SceneKit--OC/blob/master/1.Hello%20SceneKit%E4%B8%8E%E6%B8%B2%E6%9F%93%E5%BE%AA%E7%8E%AF.gif?raw=true)
+![image](https://github.com/GitHubYYBS/SceneKit-OC/blob/master/1.Hello%20SceneKit%E4%B8%8E%E6%B8%B2%E6%9F%93%E5%BE%AA%E7%8E%AF.gif?raw=true)
 
 - [Hello SceneKit与渲染循环学习笔记_之_Hello SceneKit](http://www.jianshu.com/p/e0ef96c54980)
 - [Hello SceneKit与渲染循环学习笔记_之_physics物理效果](http://www.jianshu.com/p/9a98da14bde0)
