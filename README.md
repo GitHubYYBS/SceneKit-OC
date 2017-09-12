@@ -56,7 +56,7 @@
 
 ````
 ## 3D空间的触摸事件
-
+![3D空间的触摸事件](https://github.com/GitHubYYBS/SceneKit-OC/blob/master/3D%E7%A9%BA%E9%97%B4%E7%9A%84%E8%A7%A6%E6%91%B8%E4%BA%8B%E4%BB%B6.gif?raw=true)
 
 - [3D空间的触摸事件](http://www.jianshu.com/p/7fbf5000213b)
 
