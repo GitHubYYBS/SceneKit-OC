@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166149531F67ADA000F3AD28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166149521F67ADA000F3AD28 /* main.m */; };
+		166149561F67ADA000F3AD28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166149551F67ADA000F3AD28 /* AppDelegate.m */; };
+		166149591F67ADA000F3AD28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166149581F67ADA000F3AD28 /* ViewController.m */; };
+		1661495C1F67ADA000F3AD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1661495A1F67ADA000F3AD28 /* Main.storyboard */; };
+		1661495E1F67ADA000F3AD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1661495D1F67ADA000F3AD28 /* Assets.xcassets */; };
+		166149611F67ADA000F3AD28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1661495F1F67ADA000F3AD28 /* LaunchScreen.storyboard */; };
+		166149851F67AEED00F3AD28 /* SceneEditor.scn in Resources */ = {isa = PBXBuildFile; fileRef = 166149841F67AEED00F3AD28 /* SceneEditor.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166149681F67ADA000F3AD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166149461F67ADA000F3AD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1661494D1F67ADA000F3AD28;
+			remoteInfo = "6.Scene Editor场景编辑器";
+		};
+		166149731F67ADA100F3AD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166149461F67ADA000F3AD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1661494D1F67ADA000F3AD28;
+			remoteInfo = "6.Scene Editor场景编辑器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1661494E1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6.Scene Editor场景编辑器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166149521F67ADA000F3AD28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166149541F67ADA000F3AD28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		166149551F67ADA000F3AD28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		166149571F67ADA000F3AD28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		166149581F67ADA000F3AD28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1661495B1F67ADA000F3AD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1661495D1F67ADA000F3AD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166149601F67ADA000F3AD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		166149621F67ADA000F3AD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166149671F67ADA000F3AD28 /* 6.Scene Editor场景编辑器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6.Scene Editor场景编辑器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166149721F67ADA100F3AD28 /* 6.Scene Editor场景编辑器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6.Scene Editor场景编辑器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166149841F67AEED00F3AD28 /* SceneEditor.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SceneEditor.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1661494B1F67ADA000F3AD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166149641F67ADA000F3AD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1661496F1F67ADA100F3AD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166149451F67ADA000F3AD28 = {
+			isa = PBXGroup;
+			children = (
+				166149501F67ADA000F3AD28 /* 6.Scene Editor场景编辑器 */,
+				1661494F1F67ADA000F3AD28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1661494F1F67ADA000F3AD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1661494E1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器.app */,
+				166149671F67ADA000F3AD28 /* 6.Scene Editor场景编辑器Tests.xctest */,
+				166149721F67ADA100F3AD28 /* 6.Scene Editor场景编辑器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166149501F67ADA000F3AD28 /* 6.Scene Editor场景编辑器 */ = {
+			isa = PBXGroup;
+			children = (
+				166149841F67AEED00F3AD28 /* SceneEditor.scn */,
+				166149541F67ADA000F3AD28 /* AppDelegate.h */,
+				166149551F67ADA000F3AD28 /* AppDelegate.m */,
+				166149571F67ADA000F3AD28 /* ViewController.h */,
+				166149581F67ADA000F3AD28 /* ViewController.m */,
+				1661495A1F67ADA000F3AD28 /* Main.storyboard */,
+				1661495D1F67ADA000F3AD28 /* Assets.xcassets */,
+				1661495F1F67ADA000F3AD28 /* LaunchScreen.storyboard */,
+				166149621F67ADA000F3AD28 /* Info.plist */,
+				166149511F67ADA000F3AD28 /* Supporting Files */,
+			);
+			path = "6.Scene Editor场景编辑器";
+			sourceTree = "<group>";
+		};
+		166149511F67ADA000F3AD28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166149521F67ADA000F3AD28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1661494D1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1661497B1F67ADA100F3AD28 /* Build configuration list for PBXNativeTarget "6.Scene Editor场景编辑器" */;
+			buildPhases = (
+				1661494A1F67ADA000F3AD28 /* Sources */,
+				1661494B1F67ADA000F3AD28 /* Frameworks */,
+				1661494C1F67ADA000F3AD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.Scene Editor场景编辑器";
+			productName = "6.Scene Editor场景编辑器";
+			productReference = 1661494E1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166149661F67ADA000F3AD28 /* 6.Scene Editor场景编辑器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1661497E1F67ADA100F3AD28 /* Build configuration list for PBXNativeTarget "6.Scene Editor场景编辑器Tests" */;
+			buildPhases = (
+				166149631F67ADA000F3AD28 /* Sources */,
+				166149641F67ADA000F3AD28 /* Frameworks */,
+				166149651F67ADA000F3AD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166149691F67ADA000F3AD28 /* PBXTargetDependency */,
+			);
+			name = "6.Scene Editor场景编辑器Tests";
+			productName = "6.Scene Editor场景编辑器Tests";
+			productReference = 166149671F67ADA000F3AD28 /* 6.Scene Editor场景编辑器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166149711F67ADA100F3AD28 /* 6.Scene Editor场景编辑器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166149811F67ADA100F3AD28 /* Build configuration list for PBXNativeTarget "6.Scene Editor场景编辑器UITests" */;
+			buildPhases = (
+				1661496E1F67ADA100F3AD28 /* Sources */,
+				1661496F1F67ADA100F3AD28 /* Frameworks */,
+				166149701F67ADA100F3AD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166149741F67ADA100F3AD28 /* PBXTargetDependency */,
+			);
+			name = "6.Scene Editor场景编辑器UITests";
+			productName = "6.Scene Editor场景编辑器UITests";
+			productReference = 166149721F67ADA100F3AD28 /* 6.Scene Editor场景编辑器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166149461F67ADA000F3AD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "严兵胜";
+				TargetAttributes = {
+					1661494D1F67ADA000F3AD28 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					166149661F67ADA000F3AD28 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1661494D1F67ADA000F3AD28;
+					};
+					166149711F67ADA100F3AD28 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1661494D1F67ADA000F3AD28;
+					};
+				};
+			};
+			buildConfigurationList = 166149491F67ADA000F3AD28 /* Build configuration list for PBXProject "6.Scene Editor场景编辑器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166149451F67ADA000F3AD28;
+			productRefGroup = 1661494F1F67ADA000F3AD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1661494D1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器 */,
+				166149661F67ADA000F3AD28 /* 6.Scene Editor场景编辑器Tests */,
+				166149711F67ADA100F3AD28 /* 6.Scene Editor场景编辑器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1661494C1F67ADA000F3AD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166149611F67ADA000F3AD28 /* LaunchScreen.storyboard in Resources */,
+				1661495E1F67ADA000F3AD28 /* Assets.xcassets in Resources */,
+				166149851F67AEED00F3AD28 /* SceneEditor.scn in Resources */,
+				1661495C1F67ADA000F3AD28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166149651F67ADA000F3AD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166149701F67ADA100F3AD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1661494A1F67ADA000F3AD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166149591F67ADA000F3AD28 /* ViewController.m in Sources */,
+				166149561F67ADA000F3AD28 /* AppDelegate.m in Sources */,
+				166149531F67ADA000F3AD28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166149631F67ADA000F3AD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1661496E1F67ADA100F3AD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166149691F67ADA000F3AD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1661494D1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器 */;
+			targetProxy = 166149681F67ADA000F3AD28 /* PBXContainerItemProxy */;
+		};
+		166149741F67ADA100F3AD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1661494D1F67ADA000F3AD28 /* 6.Scene Editor场景编辑器 */;
+			targetProxy = 166149731F67ADA100F3AD28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1661495A1F67ADA000F3AD28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1661495B1F67ADA000F3AD28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1661495F1F67ADA000F3AD28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166149601F67ADA000F3AD28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166149791F67ADA100F3AD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1661497A1F67ADA100F3AD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1661497C1F67ADA100F3AD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "6.Scene Editor场景编辑器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Scene-Editor-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1661497D1F67ADA100F3AD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "6.Scene Editor场景编辑器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Scene-Editor-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1661497F1F67ADA100F3AD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "6.Scene Editor场景编辑器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Scene-Editor-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6.Scene Editor场景编辑器.app/6.Scene Editor场景编辑器";
+			};
+			name = Debug;
+		};
+		166149801F67ADA100F3AD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "6.Scene Editor场景编辑器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Scene-Editor-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6.Scene Editor场景编辑器.app/6.Scene Editor场景编辑器";
+			};
+			name = Release;
+		};
+		166149821F67ADA100F3AD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "6.Scene Editor场景编辑器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Scene-Editor-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "6.Scene Editor场景编辑器";
+			};
+			name = Debug;
+		};
+		166149831F67ADA100F3AD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "6.Scene Editor场景编辑器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ybs.--Scene-Editor-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "6.Scene Editor场景编辑器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166149491F67ADA000F3AD28 /* Build configuration list for PBXProject "6.Scene Editor场景编辑器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166149791F67ADA100F3AD28 /* Debug */,
+				1661497A1F67ADA100F3AD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1661497B1F67ADA100F3AD28 /* Build configuration list for PBXNativeTarget "6.Scene Editor场景编辑器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1661497C1F67ADA100F3AD28 /* Debug */,
+				1661497D1F67ADA100F3AD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1661497E1F67ADA100F3AD28 /* Build configuration list for PBXNativeTarget "6.Scene Editor场景编辑器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1661497F1F67ADA100F3AD28 /* Debug */,
+				166149801F67ADA100F3AD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		166149811F67ADA100F3AD28 /* Build configuration list for PBXNativeTarget "6.Scene Editor场景编辑器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166149821F67ADA100F3AD28 /* Debug */,
+				166149831F67ADA100F3AD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166149461F67ADA000F3AD28 /* Project object */;
+}
