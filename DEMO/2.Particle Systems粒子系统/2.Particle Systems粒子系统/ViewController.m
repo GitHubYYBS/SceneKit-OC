@@ -10,6 +10,8 @@
 
 #import <SceneKit/SceneKit.h>
 
+#import "ParticleSystemsHeadView.h"
+
 
 /** 颜色相关 */
 #define SC_RGBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)] // RGB
@@ -17,13 +19,13 @@
 #define SC_RandomlyColor SC_RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), 1)
 
 
-
-
 @interface ViewController ()<SCNSceneRendererDelegate>
 
 @property (nonatomic, weak) SCNScene *scene;
-
+@property (nonatomic, weak) SCNView  *scnView;
 @property (nonatomic, assign) NSTimeInterval timeInterval;
+
+@property (nonatomic, weak) ParticleSystemsHeadView *headView;
 
 @end
 
@@ -50,7 +52,7 @@
     // 2.4 打开默认光源 _  如果该选项不打开 几何体的效果将无法显示
     scnView.autoenablesDefaultLighting = true;
     // 2.
-    [self.view addSubview:scnView];
+    [self.view addSubview:_scnView = scnView];
     // 2.5设置代理
     scnView.delegate = self;
     // 2.6默认情况下,如果一个场景中没有任何改变时,Scene Kit会进入"paused"(暂停)状态,渲染循环暂停后代理方法将不会继续调用,为了防止这种情况,需要在创建SCNView实例时设置playing属性为true 这样渲染循环的代理就会一直调用
@@ -65,6 +67,9 @@
     node.position = SCNVector3Make(0, 5, 10);
     // 3.3将其添加到维度的根节点上
     [scene.rootNode addChildNode:node];
+    
+    // 添加头部 控件
+    [self.view addSubview:_headView = [ParticleSystemsHeadView headVeiw]];
     
 }
 
@@ -128,10 +133,18 @@
     [geometerNode addParticleSystem:parrticleSystem];
     
     
-    // 6.0 将该节点添加到维度的根节点上
+    // 6.0设置节点命名的方式来确定哪些节点的逻辑类型
+    if (color == [UIColor blackColor]) {
+        geometerNode.name = @"bad";
+    }else{
+        geometerNode.name = @"good";
+    }
+    
+    
+    // 7.0 将该节点添加到维度的根节点上
     [self.scene.rootNode addChildNode:geometerNode];
     
-    NSLog(@"当前剩余节点数 _______  = %lu",(unsigned long)self.scene.rootNode.childNodes.count);
+//    NSLog(@"当前剩余节点数 _______  = %lu",(unsigned long)self.scene.rootNode.childNodes.count);
     
 }
 // 移除超出屏幕的节点 - 以防节点越来越多 造成内存的持续增加
@@ -144,9 +157,33 @@
         if (node.presentationNode.position.y < 0) {
             // 3.移除超出屏幕额 子节点
             [node removeFromParentNode];
-            NSLog(@"___________我移除了一个节点___");
+//            NSLog(@"___________我移除了一个节点___");
         }
     }
+}
+
+
+
+/**
+ 处理节点被点击的事宜
+
+ @param node <#node description#>
+ */
+- (void)delewithLifeAndClickNum:(SCNNode *)node{
+    
+    
+    if ([node.name isEqualToString:@"bad"]) {
+        
+        self.headView.lifeNum -= 1;
+    }else if ([node.name isEqualToString:@"good"]){
+        self.headView.clickNodeNum += 1;
+    }
+    
+    // .从屏幕中国消失
+    [node removeFromParentNode];
+    
+    NSLog(@"__该节点消失了__");
+    
 }
 
 
@@ -154,7 +191,31 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
     // 添加一个几何节点
-    [self addNode];
+//    [self addNode];
+    
+    [self clickNodeWith:touches withEvent:event];
+}
+
+- (void)clickNodeWith:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    // 1.0获取触摸点
+    UITouch *touch = [touches allObjects].firstObject;
+    // 2.0触摸点 在scnView的位置
+    CGPoint location = [touch locationInView:self.scnView];
+    
+    /*
+     该方法会返回一个SCNHitTestResult数组，这个数组中每个元素的node都包含了指定的点（CGPoint）
+    
+     打个比方：ARSCNView就是个多层合成木板，手指的每次点击，都好像一根针穿透模板，该方法会反回由针穿过的所有点（node）组成的一饿数组，每个点其实都包含了你手指点击的位置（CGPoint），这样我们就可以通过便利每个数组中每个SCNHitTestResult的node，看哪个node有父node，并且找到node的name和3D模型的根节点name做对比，可以找到那就是点击到了3D模型；
+     */
+    NSArray *hitResultsAray = [self.scnView hitTest:location options:nil];
+    
+//    NSLog(@"hitResultsAray.count = %lu",(unsigned long)hitResultsAray.count);
+    
+    // 4.0取出SCNHitTestResult
+    SCNHitTestResult *hitResults = [hitResultsAray firstObject];
+    
+    if (hitResultsAray.count) [self delewithLifeAndClickNum:hitResults.node];
 }
 
 

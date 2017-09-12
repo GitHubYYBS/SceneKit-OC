@@ -16,6 +16,7 @@
 		163CEB5F1F667DDC00FC505B /* CircleParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB5E1F667DDC00FC505B /* CircleParticle.png */; };
 		163CEB621F667DEC00FC505B /* Rain.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB601F667DEC00FC505B /* Rain.scnp */; };
 		163CEB631F667DEC00FC505B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 163CEB611F667DEC00FC505B /* spark.png */; };
+		166149441F677B8300F3AD28 /* ParticleSystemsHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166149431F677B8300F3AD28 /* ParticleSystemsHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		163CEB5E1F667DDC00FC505B /* CircleParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleParticle.png; sourceTree = "<group>"; };
 		163CEB601F667DEC00FC505B /* Rain.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Rain.scnp; sourceTree = "<group>"; };
 		163CEB611F667DEC00FC505B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		166149421F677B8300F3AD28 /* ParticleSystemsHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystemsHeadView.h; sourceTree = "<group>"; };
+		166149431F677B8300F3AD28 /* ParticleSystemsHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleSystemsHeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				163CEB391F667D3B00FC505B /* LaunchScreen.storyboard */,
 				163CEB3C1F667D3B00FC505B /* Info.plist */,
 				163CEB2B1F667D3B00FC505B /* Supporting Files */,
+				166149421F677B8300F3AD28 /* ParticleSystemsHeadView.h */,
+				166149431F677B8300F3AD28 /* ParticleSystemsHeadView.m */,
 			);
 			path = "2.Particle Systems粒子系统";
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				163CEB331F667D3B00FC505B /* ViewController.m in Sources */,
+				166149441F677B8300F3AD28 /* ParticleSystemsHeadView.m in Sources */,
 				163CEB301F667D3B00FC505B /* AppDelegate.m in Sources */,
 				163CEB2D1F667D3B00FC505B /* main.m in Sources */,
 			);
@@ -491,6 +497,7 @@
 				163CEB571F667D3B00FC505B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		163CEB581F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统Tests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +506,7 @@
 				163CEB5A1F667D3B00FC505B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		163CEB5B1F667D3B00FC505B /* Build configuration list for PBXNativeTarget "2.Particle Systems粒子系统UITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +515,7 @@
 				163CEB5D1F667D3B00FC505B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
