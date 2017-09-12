@@ -21,6 +21,7 @@
 - ![Particle Systems粒子系统](https://github.com/GitHubYYBS/SceneKit-OC/blob/master/2.Particle%20Systems%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F.gif?raw=true)
 
 - [02Particle Systems粒子系统学习笔记](http://www.jianshu.com/p/6bae9414e0db)
+- [3D空间的触摸事件](http://www.jianshu.com/p/7fbf5000213b)
 
 关键代码:
 ````
