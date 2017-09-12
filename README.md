@@ -21,7 +21,7 @@
 - ![Particle Systems粒子系统](https://github.com/GitHubYYBS/SceneKit-OC/blob/master/2.Particle%20Systems%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F.gif?raw=true)
 
 - [02Particle Systems粒子系统学习笔记](http://www.jianshu.com/p/6bae9414e0db)
-- [3D空间的触摸事件](http://www.jianshu.com/p/7fbf5000213b)
+
 
 关键代码:
 ````
@@ -53,5 +53,23 @@
     SCNParticleSystem * parrticleSystem = [self creatParticleSystemWithColor:color geometry:geometer];
     // 5.1 将该粒子 添加到节点上  有时候会发现 粒子未出现在屏幕中  可能的原因之一是 粒子的大小问题(我就遇到了)
     [geometerNode addParticleSystem:parrticleSystem];
+
+````
+## 3D空间的触摸事件
+
+
+- [3D空间的触摸事件](http://www.jianshu.com/p/7fbf5000213b)
+
+关键代码:
+````
+ // 1.0获取触摸点
+    UITouch *touch = [touches allObjects].firstObject;
+    // 2.0触摸点 在scnView的位置
+    CGPoint location = [touch locationInView:self.scnView];
+    NSArray *hitResultsAray = [self.scnView hitTest:location options:nil];
+// 4.0取出SCNHitTestResult
+    SCNHitTestResult *hitResults = [hitResultsAray firstObject];
+    
+    if (hitResultsAray.count) [self delewithLifeAndClickNum:hitResults.node];
 
 ````
